@@ -12,6 +12,7 @@ public class HelloWorldController {
 	@GetMapping("/sayhello")
 	//@RequestMapping(method=RequestMethod.GET, value = "/sayhello")
 	public String sayHello() {
+		System.out.println("hello");
 		return "hello world , I am your first API ..............";
 	}
 	
